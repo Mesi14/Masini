@@ -1,36 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Styles/style.css">
-  <title>Masini</title>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="/index.html">Acasa</a></li>
-      <li><a href="/Info/info.html">Detalii</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <main>
-    <form>
-      <label for="nume">Nume si Prenume:</label><br>
-      <input type="text" id="nume" name="nume" placeholder="Nume si Prenume ">
-      <br>
-      <br>
-      <label for="mail">Email:</label><br>
-      <input type="email" id="mail" name="mail" placeholder="Your email please... ">
-      <br>
-      <br>
-      <label for="mesaj">Nume:</label><br>
-      <textarea id="mesaj" name="mesaj" rows="10" cols="50" placeholder="Enter your message here..."></textarea>
-      <br>
-      <br>
-      <input type="submit" value="Trimite">
-      <input type="reset" value="Sterge">
-    </form>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Masini</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex-row">
+        <p>Mesi14</p>
+        <ul class="flex-row">
+          <li><a href="/index.html">Acasa</a></li>
+          <li><a href="/Info/info.html">Detalii</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form class="contactForm flex-col">
+        <label for="name">Nume si Prenume:</label><br>
+        <input type="text" id="name" name="name" placeholder="Nume si Prenume ">
+        <br>
+        <br>
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail" placeholder="Your email please... ">
+        <br>
+        <br>
+        <label for="message">Nume:</label><br>
+        <textarea id="message" name="message" rows="10" cols="50" placeholder="Enter your message here..."></textarea>
+        <br>
+        <br>
+        <input type="submit" id="formSubmit" value="Trimite">
+        <input type="reset" id="formReset" value="Sterge">
+      </form>
+    </main>
+
+    <footer class="flex-row">
+      <section class="flex-col">
+        <h1>Social Media</h1>
+        <i class="fa fa-facebook" aria-hidden="true"><a href="#">Facebook handler</a></i>
+        <i class="fa fa-twitter" aria-hidden="true"><a href="#">Twitter handler</a></i>
+        <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/Mesi14/">Mesi14</a></i>
+      </section>
+      <section>
+        <p><i class="fa fa-copyright" aria-hidden="true"></i>Mesi14</p>
+      </section>
+      <aside class="flex-col">
+        <h1>Contact Me</h1>
+        <i class="fa fa-phone" aria-hidden="true">: +40737043491</i>
+        <i class="fa fa-address-card-o" aria-hidden="true">: Address line</i>
+      </aside>
+    </footer>
+  </body>
 </html>

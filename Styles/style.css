@@ -1,3 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
-  background-color: rgb(160, 169, 169);
+  background-color: #DAE3E5;
+  font-family: "Roboto", serif;
+}
+
+nav {
+  padding: 10px 30px;
+  height: 80px;
+  background-color: #507DBC;
+  color: #DAE3E5;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900;
+}
+
+nav > p {
+  font-family: "Fruktur", serif;
+  font-size: 2.5em;
+}
+
+nav > ul {
+  width: 20%;
+  justify-content: space-between;
+  color: #fff;
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #DAE3E5;
+  font-family: "Roboto", serif;
+  font-size: 1.5em;
+}
+
+nav > ul > li {
+  transition: transform .2s ease-in-out;
+}
+
+nav > ul > li:hover {
+  cursor: pointer;
+  color: #507DBC;
+  transform: scale(1.2);
+}
+
+main > table {
+  width: 70%;
+  margin: 20px auto;
+  background-color: #2D3748;
+  border-radius: 15px;
+  color: #fff;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+main > table th {
+  background-color: #A1C6EA;
+  color: #04080F;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+main > table img {
+  width: 80%;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.car {
+  background-color: #2D3748;
+}
+
+main > table td {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+main > table a {
+  text-decoration: underline;
+  color: #47b5ff;
+  font-weight: 900;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+  width: 100%;
+  max-height: fit-content;
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+footer > section, footer > aside {
+  text-align: center;
+}
+
+footer h1 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+footer > section a{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  line-height: 1.2em;
+}
+
+
+footer > aside i {
+  line-height: 1.2em;
+  margin-top: 15px;
+}
+
+.contactForm {
+  width: 30%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #A1C6EA;
+  border-radius: 20px;
+  font-weight: 900;
+}
+
+.contactForm > input {
+  padding: 20px;
+  background-color: #507DBC;
+  border: 2px solid #507DBC;
+  border-radius: 15px;
+  height: 40px;
+}
+
+.contactForm > textarea, textarea::placeholder {
+  padding: 5px 15px;
+}
+
+
+.contactForm > input::placeholder {
+  color: #aeaeae;
+  padding: 5px 15px;
+}
+
+#formSubmit, #formReset {
+  border: 2px solid rgb(0, 96, 174);
+  margin: 10px 0;
+  color: #fff;
+  font-weight: 900;
 }
