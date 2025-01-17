@@ -36,6 +36,7 @@ For the live version of this project please visit the following [link]()
 ## Future_Functionalities:
 
 - UI
+- API 
 
 ## Support
 
