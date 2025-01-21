@@ -11,7 +11,7 @@ This is a basic presentation page to learn HTML and CSS.
 - [Support](#support)
 
 ## Screenshot
-![screenshot](./Images/screenshot.jpg)
+![screenshot](./img/pagina_principala.jpg)
 
 ## Live version
 
@@ -20,7 +20,7 @@ For the live version of this project please visit the following [link]()
 ## Get_started
 ```bash
     git clon git@github.com:Mesi14/Masini.git
-    cd into the folder by typing: cd RPS_Game
+    cd into the folder by typing: cd Masini
     open index.html in the browser
 ```
 
@@ -35,7 +35,8 @@ For the live version of this project please visit the following [link]()
 
 ## Future_Functionalities:
 
-- UI
+- Responsive UI
+- API Integration
 
 ## Support
 
