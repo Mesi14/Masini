@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,8 +29,8 @@ body {
 }
 
 nav {
-  padding: 10px 30px;
-  height: 80px;
+  padding: .8rem 1.9rem;
+  height: 5rem;
   background-color: #507DBC;
   color: #DAE3E5;
   justify-content: space-between;
@@ -69,20 +73,20 @@ main > table {
   background-color: #2D3748;
   border-radius: 15px;
   color: #fff;
-  padding: 15px;
+  padding: 1rem;
   font-size: 1.2em;
 }
 
 main > table th {
   background-color: #A1C6EA;
   color: #04080F;
-  height: 50px;
-  border-radius: 10px 10px 0 0;
+  height: 3.125rem;
+  border-radius: 0.625rem 0.625rem 0 0;
 }
 
 main > table img {
-  width: 80%;
-  height: 200px;
+  width: 100%;
+  height: 12.5rem;
   border-radius: 25px;
 }
 
@@ -102,11 +106,11 @@ main > table a {
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 70px;
+  padding: 0.625rem 4.375rem;
   width: 100%;
   max-height: fit-content;
   background-color: #3d3d3d;
@@ -118,69 +122,69 @@ footer > section, footer > aside {
 }
 
 footer h1 {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   text-decoration: underline;
 }
 
 footer > section a{
   color: #fff;
   text-decoration: none;
-  margin-left: 15px;
+  margin-left: 0.9rem;
   line-height: 1.2em;
 }
 
 
 footer > aside i {
   line-height: 1.2em;
-  margin-top: 15px;
+  margin-top: 0.9rem;
 }
 
 .contactForm {
   width: 30%;
-  margin: 50px auto;
-  padding: 20px;
+  margin: 3.125rem auto;
+  padding: 1.25rem;
   background-color: #A1C6EA;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   font-weight: 900;
 }
 
 .contactForm > input {
-  padding: 20px;
+  padding: 1.25rem;
   background-color: #507DBC;
   border: 2px solid #507DBC;
-  border-radius: 15px;
-  height: 40px;
+  border-radius: 0.9rem;
+  height: 2.5rem;
 }
 
 .contactForm > textarea, textarea::placeholder {
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9rem;
 }
 
 
 .contactForm > input::placeholder {
   color: #aeaeae;
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9rem;
 }
 
-#formSubmit, #formReset {
+.btn {
   border: 2px solid rgb(0, 96, 174);
-  margin: 10px 0;
+  margin: 0.625rem 0;
   color: #fff;
   font-weight: 900;
 }
 
 #showroom figure {
-  margin: 50px 70px;
+  margin: 3.125rem 4.375rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 70%;
   text-align: center;
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 0.18rem;
 }
 
 figcaption {
-  padding: 20px 10px;
+  padding: 1.25rem 0.625rem;
   font-weight: 700;
 }
 
@@ -196,20 +200,28 @@ figcaption {
 }
 
 #titleCarInfo {
-  padding: 50px;
+  padding: 3.125rem;
   font-weight: 900;
   font-size: 2.6em;
   color: #312788;
 }
 
-.grid-container {
-  padding: 100px;
-  display: grid;
-  grid-gap: 50px;
-  grid-template-columns: auto auto;
-  text-align: center;
-}
 
 #infoDetails, #sectionTechn {
-margin-bottom: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 2rem; 
+  margin-bottom: 3rem;
+}
+
+#infoDetails {
+  position: relative;
+  left: 50%;
+  transform: translateX(-150%);
+}
+
+#sectionTechn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
