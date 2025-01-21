@@ -11,7 +11,8 @@ This is a basic presentation page to learn HTML and CSS.
 - [Support](#support)
 
 ## Screenshot
-![screenshot](./img/pagina_principala.jpg)
+![Pagina principala](/img/pagina_principala_with_style.jpg)
+![Pagina de contact](/img/pagina_contact_with_style.jpg)
 
 ## Live version
 
